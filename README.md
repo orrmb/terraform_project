@@ -1,4 +1,4 @@
-# terraform_project# Provisioning the Object Detection Service in AWS using Terraform
+# Provisioning the Object Detection Service in AWS using Terraform
 
 ## Background 
 
