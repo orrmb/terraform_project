@@ -74,7 +74,7 @@ The below image demonstrates the Object Detection Service deployed in 5 differen
 Each region has its own Telegram bot token, but resource-wise, the regions are identical, they are deployed using the same stack of resources in AWS.
 The `tfstate` files of all regions are stored in the same S3 bucket, located in one of the regions (`us-east-1` in this case). 
 
-![](../.img/tf_project_regions.png)
+![](./img/tf_project_regions.png)
 
 [Terraform workspaces](https://developer.hashicorp.com/terraform/cli/workspaces) can help you to easily manage multiple sets of resources, originated from the same `.tf` configuration files.
 
